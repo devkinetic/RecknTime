@@ -1,0 +1,19 @@
+{
+  "integrations": {
+    "jira": {
+      "domain": "foobar.test.com",
+      "apiUrl": "foobar.test.com",
+      "token": "",
+      "userId": "foobar@test.com"
+    },
+    "harvest": {
+      "domain": "foobar.harvestapp.com",
+      "apiUrl": "api.harvestapp.com",
+      "token": "",
+      "userId": ""
+    }
+  },
+  "projectAliases": {
+    "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)": "ASDF FBIP OY1"
+  }
+}
