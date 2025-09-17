@@ -1,8 +1,7 @@
 # RecknTime
-Integrates various Timelogging APIs into an aggregated interface. Ability to sync reconciled entries with each other.
+Integrates various Timelogging APIs into an aggregated interface. Ability to sync reconciled entries with each other based on Jira project ID matching, and distinguish when hours do not match.
 
-Currently we use Powershell's Pode web server to run a PWA. It was developed as an experiment to improve portability between different timelogging applications.
-Supports a Jira to Harvest workflow, but could certainly be expanded to others.
+Developed as an experiment to improve portability between different timelogging applications. Supports both Jira and Harvest in a weekly timelogging table task by day. Could certainly be expanded to others.
 
 ## Installation
 Install [Pode](https://badgerati.github.io/Pode/Getting-Started/Installation/) and setup your integrations in `config.json`, thats it!
