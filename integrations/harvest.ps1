@@ -1,35 +1,44 @@
 param(
     [Parameter(Mandatory = $true)]
-    [pscustomobject]$Config,
-
-    [Parameter(Mandatory = $true)]
     [string]$FromDate,
 
     [Parameter(Mandatory = $true)]
-    [string]$ToDate,
-    
-    [switch]$Silent
+    [string]$ToDate
 )
 
-$token  = $Config.token
+$Config = (Get-Content -Raw -Path '$PSScriptRoot/../config.json' | ConvertFrom-Json).integrations.harvest
+$authType = $Config.authType
+
+if ($authType -eq "file") {
+    $fileData =  Get-Content -Raw -Path "$PSScriptRoot/harvest-data/demo/$FromDate--$ToDate.json" | ConvertFrom-Json
+    return $fileData.time_entries
+}
+
 $apiUrl = $Config.apiUrl
 $userId = $Config.userId
 
 $url = "https://$apiUrl/v2/"
 
 $headers = @{
-    Authorization        = "Bearer $token"
     'Harvest-Account-Id' = $userId
-    'User-Agent'         = 'Recon'
+    'User-Agent'         = 'RecknTime'
+}
+
+if ($authType -eq "cookie") {
+    # TODO
+}
+elseif ($authType -eq "token") {
+    $token = $Config.auth.token.token
+    $headers["Authorization"] = "Bearer $token"
+}
+else {
+    throw "Unsupported authentication method: $authType"
 }
 
 try {
-    $response = Invoke-RestMethod -Uri "$url/time_entries?from=$FromDate&to=$ToDate" -Headers $headers -Method Get
+    $entriesUri = "$url/time_entries?from=$FromDate&to=$ToDate"
+    $response = Invoke-RestMethod -Uri $entriesUri -Headers $headers -Method Get
     $data = $response.time_entries
-    if (-not $Silent) {
-        $data | ConvertTo-Json -Depth 10 | Set-Content -Encoding UTF8 "harvest.json"
-        Write-Host "Harvest Entries saved to harvest.json"
-    }
     return $data
 }
 catch {

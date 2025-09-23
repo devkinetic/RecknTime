@@ -24,7 +24,6 @@ Start-PodeServer {
     }
     
     Add-PodeRoute -Method Get -Path '/api/entries' -ScriptBlock {
-        $config = Get-PodeState -Name 'AppConfig'
         $fromDate = $WebEvent.Query['fromDate']
         $toDate = $WebEvent.Query['toDate']
         
@@ -34,37 +33,26 @@ Start-PodeServer {
             return
         }
         
-        $jiraArgs = @{
-            Config = $config.integrations.jira
+        $args = @{
             FromDate = $fromDate
             ToDate = $toDate
-            Silent = $true
         }
         
-        $harvestArgs = @{
-            Config = $config.integrations.harvest
-            FromDate = $fromDate
-            ToDate = $toDate
-            Silent = $true
-        }
-
         try {
-            $jiraJson = & "$PSScriptRoot/integrations/jira.ps1" @jiraArgs
-            $harvestJson = & "$PSScriptRoot/integrations/harvest.ps1" @harvestArgs
+            $jira = & "$PSScriptRoot/integrations/jira.ps1" @args
+            $harvest = & "$PSScriptRoot/integrations/harvest.ps1" @args
         }
         catch {
             Write-Host "Error in script:"
             Write-Host $_
             Set-PodeResponseStatus -Code 500
-            Write-PodeJsonResponse -Value @{ error = "Jira script failed: $($_.Exception.Message)" }
+            Write-PodeJsonResponse -Value @{ error = "Fetch scripts failed: $($_.Exception.Message)" }
             return
         }
-        
-        $jiraParsed = $jiraJson | ConvertFrom-Json
 
         $combined = @{
-            jira    = $jiraParsed
-            harvest = $harvestJson
+            jira    = $jira
+            harvest = $harvest
         }
 
         Write-PodeJsonResponse -Value $combined

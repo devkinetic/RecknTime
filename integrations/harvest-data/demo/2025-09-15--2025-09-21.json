@@ -1,0 +1,1120 @@
+{
+    "time_entries": [
+        {
+            "id": 2755458051,
+            "spent_date": "2025-09-19",
+            "hours": 1.5,
+            "hours_without_timer": 1.5,
+            "rounded_hours": 1.5,
+            "notes": "FOOBAR_BIP-2337 - Document Swagger",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T20:01:02Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755430075,
+            "spent_date": "2025-09-19",
+            "hours": 0.5,
+            "hours_without_timer": 0.5,
+            "rounded_hours": 0.5,
+            "notes": "Internal Team Sync-up",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:29:28Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429890,
+            "spent_date": "2025-09-19",
+            "hours": 0.25,
+            "hours_without_timer": 0.25,
+            "rounded_hours": 0.25,
+            "notes": "FB Project: Daily Standup Meeting",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:29:18Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755455159,
+            "spent_date": "2025-09-18",
+            "hours": 3.75,
+            "hours_without_timer": 3.75,
+            "rounded_hours": 3.75,
+            "notes": "FOOBAR_BIP-2346 - Support Deployment",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:57:49Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755454988,
+            "spent_date": "2025-09-18",
+            "hours": 4.0,
+            "hours_without_timer": 4.0,
+            "rounded_hours": 4.0,
+            "notes": "FOOBAR_BIP-2339 - Redesign UI \u0026 add Breadcrumbs",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:57:38Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429799,
+            "spent_date": "2025-09-18",
+            "hours": 0.25,
+            "hours_without_timer": 0.25,
+            "rounded_hours": 0.25,
+            "notes": "FB Project: Daily Standup Meeting",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:29:13Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755496897,
+            "spent_date": "2025-09-17",
+            "hours": 1.25,
+            "hours_without_timer": 1.25,
+            "rounded_hours": 1.25,
+            "notes": "Offboarding",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T20:43:36Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755443683,
+            "spent_date": "2025-09-17",
+            "hours": 4.0,
+            "hours_without_timer": 4.0,
+            "rounded_hours": 4.0,
+            "notes": "FOOBAR_BIP-2346 - Support Deployment",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:44:55Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429699,
+            "spent_date": "2025-09-17",
+            "hours": 0.25,
+            "hours_without_timer": 0.25,
+            "rounded_hours": 0.25,
+            "notes": "FB Project: Daily Standup Meeting",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:29:06Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429674,
+            "spent_date": "2025-09-17",
+            "hours": 1.0,
+            "hours_without_timer": 1.0,
+            "rounded_hours": 1.0,
+            "notes": "BIP Sprint Planning",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:29:04Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755443580,
+            "spent_date": "2025-09-16",
+            "hours": 4.0,
+            "hours_without_timer": 4.0,
+            "rounded_hours": 4.0,
+            "notes": "FOOBAR_BIP-2346 - Support Deployment",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:44:47Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429429,
+            "spent_date": "2025-09-16",
+            "hours": 0.25,
+            "hours_without_timer": 0.25,
+            "rounded_hours": 0.25,
+            "notes": "FB Project: Daily Standup Meeting",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:28:49Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755429177,
+            "spent_date": "2025-09-16",
+            "hours": 1.0,
+            "hours_without_timer": 1.0,
+            "rounded_hours": 1.0,
+            "notes": "Sprint Demo - Big Important Project",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:28:33Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755496566,
+            "spent_date": "2025-09-15",
+            "hours": 1.0,
+            "hours_without_timer": 1.0,
+            "rounded_hours": 1.0,
+            "notes": "Offboarding",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T20:43:14Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755444209,
+            "spent_date": "2025-09-15",
+            "hours": 1.5,
+            "hours_without_timer": 1.5,
+            "rounded_hours": 1.5,
+            "notes": "FOOBAR_BIP-2338 - Resolve API access issue",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:45:29Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755444018,
+            "spent_date": "2025-09-15",
+            "hours": 1.5,
+            "hours_without_timer": 1.5,
+            "rounded_hours": 1.5,
+            "notes": "FOOBAR_BIP-2339 - Redesign UI \u0026 add Breadcrumbs",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:45:19Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755435755,
+            "spent_date": "2025-09-15",
+            "hours": 2.5,
+            "hours_without_timer": 2.5,
+            "rounded_hours": 2.5,
+            "notes": "Deployment Prep \u0026 onboarding Jane",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:35:51Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        },
+        {
+            "id": 2755428818,
+            "spent_date": "2025-09-15",
+            "hours": 0.25,
+            "hours_without_timer": 0.25,
+            "rounded_hours": 0.25,
+            "notes": "FB Project: Daily Standup Meeting",
+            "is_locked": false,
+            "locked_reason": null,
+            "approval_status": "submitted",
+            "is_closed": false,
+            "is_billed": false,
+            "timer_started_at": null,
+            "started_time": null,
+            "ended_time": null,
+            "is_running": false,
+            "billable": true,
+            "budgeted": true,
+            "billable_rate": null,
+            "cost_rate": null,
+            "created_at": "2025-09-22T19:28:06Z",
+            "updated_at": "2025-09-22T20:44:07Z",
+            "user": {
+                "id": 4325890,
+                "name": "John Smith"
+            },
+            "client": {
+                "id": 10718515,
+                "name": "FB",
+                "currency": "USD"
+            },
+            "project": {
+                "id": 42285078,
+                "name": "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)",
+                "code": null
+            },
+            "task": {
+                "id": 21404617,
+                "name": "Lead Developer"
+            },
+            "user_assignment": {
+                "id": 487195690,
+                "is_project_manager": false,
+                "is_active": true,
+                "use_default_rates": true,
+                "budget": null,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2024-09-27T16:26:20Z",
+                "hourly_rate": null
+            },
+            "task_assignment": {
+                "id": 465862787,
+                "billable": true,
+                "is_active": true,
+                "created_at": "2024-09-27T16:26:20Z",
+                "updated_at": "2025-06-02T18:12:00Z",
+                "hourly_rate": null,
+                "budget": null
+            },
+            "invoice": null,
+            "external_reference": null
+        }
+    ]
+}
