@@ -4,7 +4,12 @@ Integrates various Timelogging APIs into an aggregated interface. Ability to syn
 Developed as an experiment to improve portability between different timelogging applications. Supports both Jira and Harvest in a weekly timelogging table task by day. Could certainly be expanded to others.
 
 ## Installation
-Install [Pode](https://badgerati.github.io/Pode/Getting-Started/Installation/) and setup your integrations in `config.json`, thats it!
+ 1. Install [Pode](https://badgerati.github.io/Pode/Getting-Started/Installation/)
+ 2. Setup your integrations in `config.json`, thats really it.
+
+By default the `authType` is set to file which will default to `./integrations/XXX-data/demo/` folder. You can navigate to the date in those files in the UI to see the demo.
+
+After you add your tokens set the authType to "token", and restart pode.
 
 # Usage
  1. Run `pode start` in the project repo from powershell.
