@@ -1,4 +1,4 @@
-# RecknTime
+# Reck'n Time
 Integrates various Timelogging APIs into an aggregated interface. Ability to sync reconciled entries with each other based on Jira project ID matching, and distinguish when hours do not match.
 
 Developed as an experiment to improve portability between different timelogging applications. Supports both Jira and Harvest in a weekly timelogging table task by day. Could certainly be expanded to others.
