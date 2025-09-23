@@ -1,36 +1,54 @@
 param(
     [Parameter(Mandatory = $true)]
-    [pscustomobject]$Config,
-
-    [Parameter(Mandatory = $true)]
     [string]$FromDate,
     
     [Parameter(Mandatory = $true)]
-    [string]$ToDate,
-
-    [switch]$Silent
+    [string]$ToDate
 )
 
-$token  = $Config.token
+$Config = (Get-Content -Raw -Path '$PSScriptRoot/../config.json' | ConvertFrom-Json).integrations.jira
+$authType = $Config.authType
+
+if ($authType -eq "file") {
+    return Get-Content -Raw -Path "$PSScriptRoot/jira-data/demo/$FromDate--$ToDate.json" | ConvertFrom-Json
+}
+
 $apiUrl = $Config.apiUrl
 $userId = $Config.userId
 
 $url = "https://$apiUrl/rest/api/2"
 
 $headers = @{
-    Authorization = "Bearer $token"
-    Accept        = "application/json"
+    Accept = "application/json"
+}
+
+if ($authType -eq "cookie") {
+    $jsessionId = $Config.auth.cookie.jsessionId
+    $xsrfToken = $Config.auth.cookie.xsrfToken
+    $cookieHeader = "JSESSIONID=$jsessionId; atlassian.xsrf.token=$xsrfToken"
+    $headers["Cookie"] = $cookieHeader
+    $headers["X-Atlassian-Token"] = "no-check"
+    $headers["User-Agent"] = "Mozilla/5.0"
+}
+elseif ($authType -eq "token") {
+    $token = $Config.auth.token.token
+    $headers["Authorization"] = "Bearer $token"
+}
+else {
+    throw "Unsupported authentication method: $authType"
 }
 
 try {
-    $jql = [uri]::EscapeDataString("worklogDate >= $FromDate AND worklogDate <= $ToDate AND worklogAuthor = currentUser()")
-    $response = Invoke-RestMethod -Uri "$url/search?jql=$jql&fields=key,summary&maxResults=200" -Headers $headers -Method Get
+    $searchIssuesJql = [uri]::EscapeDataString("worklogDate >= $FromDate AND worklogDate <= $ToDate AND worklogAuthor = currentUser()")
+    $searchUri = "$url/search?jql=$searchIssuesJql&fields=key,summary&maxResults=200"
+    
+    $response = Invoke-RestMethod -Uri $searchUri -Headers $headers -Method Get
     
     $allWorklogs = @{}
     foreach ($issue in $response.issues) {
         $key = $issue.key
         $summary = $issue.fields.summary
-        $worklogUrl = "https://$apiUrl/rest/api/2/issue/$key/worklog"
+        $worklogUrl = "$url/issue/$key/worklog"
         $logData = Invoke-RestMethod -Uri $worklogUrl -Headers $headers
         $filtered = @($logData.worklogs | Where-Object {
             $_.author.emailAddress -eq $userId -and
@@ -39,14 +57,7 @@ try {
         })
         $allWorklogs[$key] = @{ summary = $summary; worklogs = $filtered }
     }
-
-    $json = $allWorklogs | ConvertTo-Json -Depth 10
-    if (-not $Silent) {
-        $json | Set-Content -Encoding UTF8 "jira.json"
-        Write-Host "Worklogs saved to jira.json"
-    }
-    
-    return $json
+    return $allWorklogs
 }
 catch {
     Write-Error "Failed to fetch data from Jira: $_"
