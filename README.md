@@ -3,6 +3,12 @@ Integrates various Timelogging APIs into an aggregated interface. Ability to syn
 
 Developed as an experiment to improve portability between different timelogging applications. Supports both Jira and Harvest in a weekly timelogging table task by day. Could certainly be expanded to others.
 
+<p align="center" width="100%">
+  <img src="https://raw.githubusercontent.com/devkinetic/RecknTime/refs/heads/main/public/icon.svg" width="300"/>
+</p>
+
+<img src="https://raw.githubusercontent.com/devkinetic/RecknTime/refs/heads/main/public/screenshot.png"/>
+
 ## Installation
  1. Install [Pode](https://badgerati.github.io/Pode/Getting-Started/Installation/)
  2. Setup your integrations in `config.json`, thats really it.
