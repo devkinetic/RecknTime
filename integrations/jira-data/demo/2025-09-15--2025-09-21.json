@@ -1,0 +1,350 @@
+{
+    "FOOBAR_BIP-2346": {
+        "summary": "Support Deployment",
+        "worklogs": [
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/768616/worklog/245551",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:37:22.256-0400",
+                "updated": "2025-09-22T15:37:22.256-0400",
+                "started": "2025-09-16T15:37:00.000-0400",
+                "timeSpent": "4h",
+                "timeSpentSeconds": 14400,
+                "id": "245551",
+                "issueId": "768616"
+            },
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/768616/worklog/245552",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:37:36.193-0400",
+                "updated": "2025-09-22T15:37:36.193-0400",
+                "started": "2025-09-17T15:37:00.000-0400",
+                "timeSpent": "4h",
+                "timeSpentSeconds": 14400,
+                "id": "245552",
+                "issueId": "768616"
+            },
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/768616/worklog/245553",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:37:59.749-0400",
+                "updated": "2025-09-22T15:46:19.920-0400",
+                "started": "2025-09-19T15:37:00.000-0400",
+                "timeSpent": "4h",
+                "timeSpentSeconds": 14400,
+                "id": "245553",
+                "issueId": "768616"
+            },
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/768616/worklog/245557",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:56:54.585-0400",
+                "updated": "2025-09-22T15:56:54.585-0400",
+                "started": "2025-09-18T15:56:00.000-0400",
+                "timeSpent": "3h 45m",
+                "timeSpentSeconds": 13500,
+                "id": "245557",
+                "issueId": "768616"
+            }
+        ]
+    },
+    "FOOBAR_BIP-2339": {
+        "summary": "Redesign UI & add Breadcrumbs",
+        "worklogs": [
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/766505/worklog/245550",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:34:32.471-0400",
+                "updated": "2025-09-22T15:41:03.332-0400",
+                "started": "2025-09-15T15:34:00.000-0400",
+                "timeSpent": "1h 30m",
+                "timeSpentSeconds": 5400,
+                "id": "245550",
+                "issueId": "766505"
+            },
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/766505/worklog/245556",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:55:40.402-0400",
+                "updated": "2025-09-22T15:55:40.402-0400",
+                "started": "2025-09-18T15:55:00.000-0400",
+                "timeSpent": "4h",
+                "timeSpentSeconds": 14400,
+                "id": "245556",
+                "issueId": "766505"
+            }
+        ]
+    },
+    "FOOBAR_BIP-2338": {
+        "summary": "Resolve API access issue",
+        "worklogs": [
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/765217/worklog/245549",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T15:33:53.009-0400",
+                "updated": "2025-09-22T15:33:53.009-0400",
+                "started": "2025-09-15T15:33:00.000-0400",
+                "timeSpent": "1h 30m",
+                "timeSpentSeconds": 5400,
+                "id": "245549",
+                "issueId": "765217"
+            }
+        ]
+    },
+    "FOOBAR_BIP-2337": {
+        "summary": "Document Swagger",
+        "worklogs": [
+            {
+                "self": "https://foobar.test.com/rest/api/2/issue/765206/worklog/245558",
+                "author": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "updateAuthor": {
+                    "self": "https://foobar.test.com/rest/api/2/user?username=jsmith",
+                    "name": "jsmith",
+                    "key": "JIRAUSER1337",
+                    "emailAddress": "foobar@test.com",
+                    "avatarUrls": {
+                        "48x48": "https://foobar.test.com/secure/useravatar?ownerId=JIRAUSER1337&avatarId=28900",
+                        "24x24": "https://foobar.test.com/secure/useravatar?size=small&ownerId=JIRAUSER1337&avatarId=28900",
+                        "16x16": "https://foobar.test.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER1337&avatarId=28900",
+                        "32x32": "https://foobar.test.com/secure/useravatar?size=medium&ownerId=JIRAUSER1337&avatarId=28900"
+                    },
+                    "displayName": "Smith, John - ASDF",
+                    "active": true,
+                    "timeZone": "America/New_York"
+                },
+                "comment": "",
+                "created": "2025-09-22T16:00:25.525-0400",
+                "updated": "2025-09-22T16:00:25.525-0400",
+                "started": "2025-09-19T16:00:00.000-0400",
+                "timeSpent": "1h 30m",
+                "timeSpentSeconds": 5400,
+                "id": "245558",
+                "issueId": "765206"
+            }
+        ]
+    }
+}
