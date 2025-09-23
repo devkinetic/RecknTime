@@ -3,17 +3,28 @@
     "jira": {
       "domain": "foobar.test.com",
       "apiUrl": "foobar.test.com",
-      "token": "",
-      "userId": "foobar@test.com"
+      "userId": "foobar@test.com",
+      "authType": "file",
+      "auth": {
+        "token": {
+          "token": ""
+        }
+      }
     },
     "harvest": {
       "domain": "foobar.harvestapp.com",
       "apiUrl": "api.harvestapp.com",
-      "token": "",
-      "userId": ""
+      "userId": "",
+      "authType": "file",
+      "auth": {
+        "token": {
+          "token": ""
+        }
+      }
     }
   },
   "projectAliases": {
     "Foobar Big Important Project - Option Year 1 (x/xx/xx - x/xx/xx)": "ASDF FBIP OY1"
   }
 }
+
